@@ -22,6 +22,8 @@ public class AddCustomerPage extends BasePage {
     private static final String LAST_NAME = "Petrov";
     private static final String DELETE_CUSTOMER_PATH = "//tbody/tr/td[text()='%s']/..//button[@ng-click='deleteCust(cust)']";
     public static String expectedDeleteName;
+    private static final String URL_HOME_PAGE = "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager";
+    private static final String URL_CUSTOMERS_PAGE = "https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager/list";
 
     @FindBy(xpath = "//button[@ng-click='addCust()']")
     private WebElement addCustomerButton;
@@ -107,13 +109,13 @@ public class AddCustomerPage extends BasePage {
 
     @Step("Wait until open home page")
     public AddCustomerPage waitUntilOpenHomePage() {
-        getDriver().get("https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager");
+        getDriver().get(URL_HOME_PAGE);
         return this;
     }
 
     @Step("Wait until open customers page")
     public AddCustomerPage waitUntilOpenCustomersPage() {
-        getDriver().get("https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager/list");
+        getDriver().get(URL_CUSTOMERS_PAGE);
         return this;
     }
 
