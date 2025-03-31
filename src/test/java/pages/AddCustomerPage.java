@@ -13,8 +13,6 @@ import java.util.Random;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-import static java.sql.DriverManager.getDriver;
-
 public class AddCustomerPage extends BasePage {
 
     private static String randomPostCode;
