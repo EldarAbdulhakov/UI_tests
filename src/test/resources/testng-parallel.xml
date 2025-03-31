@@ -10,14 +10,14 @@
                 <class name="tests.CustomerTest"/>
             </classes>
         </test>
-        <test name="test3">
-            <classes>
-                <class name="tests.CustomerTest"/>
-            </classes>
-        </test>
-        <test name="test4">
-            <classes>
-                <class name="tests.CustomerTest"/>
-            </classes>
-        </test>
+<!--        <test name="test3">-->
+<!--            <classes>-->
+<!--                <class name="tests.CustomerTest"/>-->
+<!--            </classes>-->
+<!--        </test>-->
+<!--        <test name="test4">-->
+<!--            <classes>-->
+<!--                <class name="tests.CustomerTest"/>-->
+<!--            </classes>-->
+<!--        </test>-->
 </suite>
