@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>abdulhakov.eldar</groupId>
-    <artifactId>ExperimentPracticum</artifactId>
+    <artifactId>UI_tests</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
