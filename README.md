@@ -11,7 +11,7 @@
 
 
 # Чек лист
-## Объект тестирования: https://www.globalsqa.com/angularJs protractor/BankingProject/#/manager
+## Объект тестирования: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager
 
 ## 1. Создание клиента (Add Customer)
 ## При создании тестовых данных для полей Post Code и First Name необходимо:
